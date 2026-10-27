@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440067337764",
+    "project_id": "barline-7c93e",
+    "storage_bucket": "barline-7c93e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440067337764:android:2f15a7b7728758cfb932b1",
+        "android_client_info": {
+          "package_name": "com.example.Barline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaE53jt8tpYJOPzZGz4bjz01-EmrvCiTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
