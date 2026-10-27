@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MusicTeacherTracker"
+rootProject.name = "Barline"
 include(":app")
  

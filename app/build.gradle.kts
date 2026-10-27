@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.musicteachertracker"
+    namespace = "com.example.Barline"
     compileSdk {
         version = release(37) {
 
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.musicteachertracker"
+        applicationId = "com.example.Barline"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -47,10 +47,12 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.firebase.firestore.ktx)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
+
 }
