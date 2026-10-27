@@ -3,21 +3,29 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Five staff lines -->
     <path
         android:fillColor="#00000000"
         android:strokeColor="#FFFFFF"
-        android:strokeWidth="3.5"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"
-        android:pathData="M47,81
-            C47,88 57,88 57,80
-            L58,27
-            C58,20 66,23 64,32
-            C62,42 44,46 43,58
-            C42,68 56,76 64,67
-            C70,60 68,50 55,52
-            C48,53 47,62 54,62" />
+        android:strokeWidth="1.4"
+        android:pathData="M30,40 H74
+            M30,47 H74
+            M30,54 H74
+            M30,61 H74
+            M30,68 H74" />
+
+    <!-- Thin barline -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M47,81m-2.6,0a2.6,2.6 0,1 1,5.2 0a2.6,2.6 0,1 1,-5.2 0" />
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:pathData="M67,40 V68" />
+
+    <!-- Thick barline (end of piece) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:pathData="M74,40 V68" />
 </vector>
