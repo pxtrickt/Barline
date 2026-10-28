@@ -1,4 +1,4 @@
-package com.example.barline
+package com.example.Barline
 
 import org.junit.Test
 

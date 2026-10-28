@@ -1,4 +1,4 @@
-package com.example.barline.auth
+package com.example.Barline.auth
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions

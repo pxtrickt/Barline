@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.barline"
+    namespace = "com.example.Barline"
     compileSdk = 35
 
     defaultConfig {

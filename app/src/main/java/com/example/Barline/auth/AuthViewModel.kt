@@ -1,4 +1,4 @@
-package com.example.barline.auth
+package com.example.Barline.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.compose.runtime.getValue
