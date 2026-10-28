@@ -1,4 +1,4 @@
-package com.example.Barline.auth
+package com.example.barline.auth
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
@@ -10,7 +10,6 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 
-// LoginScreen.kt
 @Composable
 fun LoginScreen(
     email: String,

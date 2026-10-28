@@ -1,4 +1,4 @@
-package com.example.Barline.homepage
+package com.example.barline.homepage
 
 class HomePage {
 }
